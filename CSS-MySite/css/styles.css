@@ -1,0 +1,141 @@
+body {
+  color: 40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+    font-size: 562.5%;
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  border-color: #EAF6F6 ;
+  width: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+ margin-top: 3%;
+ background-color: #66BFBF;
+ padding-top: 3%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 370px;
+  top: 75px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 370px;
+  bottom: 320px;
+}
+
+.profilepic{
+  margin-top: 6%;
+  width: 13%;
+}
+.skills {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row {
+  margin: auto auto 15% auto;
+}
+
+.ad {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.custrel {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+a{
+  color: #11999E;
+}
+
+.reach{
+  margin-bottom: 3%;
+  
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.signature{
+  color: #EAF6F6;
+ margin-bottom: 0px;
+ padding-bottom: 2%;
+ font-size: x-small;
+ margin-top: 2%;
+}
+
+.footer-link {
+  margin: auto 2% auto 2%;
+}
+
+  /* working on the bottom container style making the links more spaced,
+  the signature smaller and the match the rest of the page in the example.*/
